@@ -20,7 +20,7 @@ Employee Table:
    Example: SELECT * FROM employees WHERE salary - 1000 < 4000;
    Output: This query will return all employees whose salary minus 1000 is less than 4000.
 
-   ![Subtraction](./src/assits/Day-35-Arithematic-Operator-Practic-images/Arithematic_Subtraction_operator_practic.png)
+   ![Subtraction](./src/assits/Day-35-Arithematic-Operator-Practic-images/Arithematic_Subtract_operator_practic.png)
 
 
 ## 3. Multiplication (*): Used to multiply two numbers.
