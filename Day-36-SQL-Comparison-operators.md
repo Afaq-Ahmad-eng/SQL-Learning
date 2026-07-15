@@ -8,7 +8,7 @@ For this, we will use the `employees` table, which contains the following column
 
 **Employee Table:**
 
-![Employee Table](./src/assits/Day-35-Arithematic-Operator-Practic-images/Employee_table.png)
+![Employee Table](./src/assets/Day-35-Arithematic-Operator-Practic-images/Employee_table.png)
 
 ---
 
@@ -23,7 +23,7 @@ SELECT * FROM employee WHERE first_name = 'Omer';
 
 **Output:**
 
-![Equal to ( = ) Operator](./src/assits/Day-36-Comparison-Operator-Practic-images/Comparison-equal_to-operator.png)
+![Equal to ( = ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison-equal_to-operator.png)
 
 ---
 
@@ -38,7 +38,7 @@ SELECT * FROM employee WHERE salary > 13000;
 
 **Output:**
 
-![Greater than ( > ) Operator](./src/assits/Day-36-Comparison-Operator-Practic-images/Comparison-Greater_then-operator.png)
+![Greater than ( > ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison-Greater_then-operator.png)
 
 ---
 
@@ -53,7 +53,7 @@ SELECT * FROM employee WHERE department_id < 210;
 
 **Output:**
 
-![Less than ( < ) Operator](./src/assits/Day-36-Comparison-Operator-Practic-images/Comparison-Less_than-operator.png)
+![Less than ( < ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison-Less_than-operator.png)
 
 ---
 
@@ -68,7 +68,7 @@ SELECT * FROM employee WHERE salary >= 10000;
 
 **Output:**
 
-![Greater than or equal to ( >= ) Operator](./src/assits/Day-36-Comparison-Operator-Practic-images/Comparison-Greater_then_or_Equal_to-operator.png)
+![Greater than or equal to ( >= ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison-Greater_then_or_Equal_to-operator.png)
 
 ---
 
@@ -83,7 +83,7 @@ SELECT * FROM employee WHERE salary <= 10000;
 
 **Output:**
 
-![Less than or equal to ( <= ) Operator](./src/assits/Day-36-Comparison-Operator-Practic-images/Comparison-Less_then_or_Equal_to-operator.png)
+![Less than or equal to ( <= ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison-Less_then_or_Equal_to-operator.png)
 
 ---
 
@@ -98,9 +98,9 @@ SELECT * FROM employee WHERE salary <> 10000;
 
 **Output:**
 
-![Not equal to ( <> ) Operator](./src/assits/Day-36-Comparison-Operator-Practic-images/Comparison-Not_equal_to-operator.png)
+![Not equal to ( <> ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison-Not_equal_to-operator.png)
 
-![Not equal to ( != ) Operator](./src/assits/Day-36-Comparison-Operator-Practic-images/Comparison_Not_Equal_to-Operator.png)
+![Not equal to ( != ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison_Not_Equal_to-Operator.png)
 
 
-← [Back to main README](./README.md) | ← [Previous Day (Day 35)](./Day-35-SQL-Arithmetic%20-Operators.md) | [Next Day (Day 36) →](./Day-36-SQL-Comparison-operators.md)
+← [Back to main README](./README.md) | ← [Previous Day (Day 35)](./Day-35-SQL-Arithmetic-Operators.md) | [Next Day (Day 37) →](./Day-36-SQL-Comparison-operators.md)
