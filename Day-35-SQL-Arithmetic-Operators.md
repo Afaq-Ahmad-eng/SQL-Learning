@@ -8,7 +8,7 @@ For this, we will use the `employees` table, which contains the following column
 
 **Employee Table:**
 
-![Employee Table](./src/assits/Day-35-Arithematic-Operator-Practic-images/Employee_table.png)
+![Employee Table](./src/assets/Day-35-Arithematic-Operator-Practic-images/Employee_table.png)
 
 ---
 
@@ -23,7 +23,7 @@ SELECT * FROM employees WHERE salary + 1000 > 5000;
 
 **Output:** This query returns all employees whose salary plus 1000 is greater than 5000.
 
-![Addition](./src/assits/Day-35-Arithematic-Operator-Practic-images/Arithematic_Addition_operator_practic.png)
+![Addition](./src/assets/Day-35-Arithematic-Operator-Practic-images/Arithematic_Addition_operator_practic.png)
 
 ---
 
@@ -38,7 +38,7 @@ SELECT * FROM employees WHERE salary - 1000 < 4000;
 
 **Output:** This query returns all employees whose salary minus 1000 is less than 4000.
 
-![Subtraction](./src/assits/Day-35-Arithematic-Operator-Practic-images/Arithematic_Subtract_operator_practic.png)
+![Subtraction](./src/assets/Day-35-Arithematic-Operator-Practic-images/Arithematic_Subtract_operator_practic.png)
 
 ---
 
@@ -53,7 +53,7 @@ SELECT * FROM employees WHERE salary * 2 = 10000;
 
 **Output:** This query returns all employees whose salary multiplied by 2 equals 10000.
 
-![Multiplication](./src/assits/Day-35-Arithematic-Operator-Practic-images/Arithematic_Multiplication_operator_practic.png)
+![Multiplication](./src/assets/Day-35-Arithematic-Operator-Practic-images/Arithematic_Multiplication_operator_practic.png)
 
 ---
 
@@ -68,7 +68,7 @@ SELECT * FROM employees WHERE salary / 2 = 2500;
 
 **Output:** This query returns all employees whose salary divided by 2 equals 2500.
 
-![Division](./src/assits/Day-35-Arithematic-Operator-Practic-images/Arithematic_Division_operator_practic.png)
+![Division](./src/assets/Day-35-Arithematic-Operator-Practic-images/Arithematic_Division_operator_practic.png)
 
 ---
 
@@ -83,7 +83,7 @@ SELECT * FROM employees WHERE salary % 1000 = 0;
 
 **Output:** This query returns all employees whose salary is divisible by 1000 with no remainder.
 
-![Modulus](./src/assits/Day-35-Arithematic-Operator-Practic-images/Arithematic_Modulus_operator_practic.png)
+![Modulus](./src/assets/Day-35-Arithematic-Operator-Practic-images/Arithematic_Modulus_operator_practic.png)
 
 ---
 
