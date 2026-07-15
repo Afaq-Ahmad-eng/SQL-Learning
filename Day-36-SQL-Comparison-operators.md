@@ -100,6 +100,14 @@ SELECT * FROM employee WHERE salary <> 10000;
 
 ![Not equal to ( <> ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison-Not_equal_to-operator.png)
 
+
+**SQL Query:**
+```sql
+SELECT * FROM employee WHERE salary != 190000;
+```
+
+**Output:**
+
 ![Not equal to ( != ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison_Not_Equal_to-Operator.png)
 
 
