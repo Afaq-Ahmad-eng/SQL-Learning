@@ -87,4 +87,4 @@ SELECT * FROM employees WHERE salary % 1000 = 0;
 
 ---
 
-← [Back to main README](./README.md) | ← [Previous Day (Day 34) this not yet uploaded so, this is point to the day 35 ](./Day-35-SQL-Arithmetic-Operators.md) | [Next Day (Day 36) →](./Day-36-SQL-Comparison-operators.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 34) this not yet uploaded so, this is point to the day 35 ](./Day-35-SQL-Arithmetic-Operators.md) | [Next Day (Day 36) →](./Day-36-SQL-Comparison-operators.md)
