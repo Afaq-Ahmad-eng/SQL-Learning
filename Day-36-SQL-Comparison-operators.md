@@ -111,4 +111,4 @@ SELECT * FROM employee WHERE salary != 190000;
 ![Not equal to ( != ) Operator](./src/assets/Day-36-Comparison-Operator-Practic-images/Comparison_Not_Equal_to-Operator.png)
 
 
-← [Back to main README](./README.md) | ← [Previous Day (Day 35)](./Day-35-SQL-Arithmetic-Operators.md) | [Next Day (Day 37) →](./Day-36-SQL-Comparison-operators.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 35)](./Day-35-SQL-Arithmetic-Operators.md) | [Next Day (Day 37) →](./Day-37-SQL-Logical-operators.md)
