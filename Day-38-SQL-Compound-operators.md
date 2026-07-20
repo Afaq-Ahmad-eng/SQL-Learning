@@ -8,7 +8,7 @@ For this, we will use the `employees` table, which contains the following column
 
 **Employee Table:**
 
-![Employee Table](./src/assets/Day-35-Arithematic-Operator-Practic-images/Employee_table.png)
+![Employee Table](./src/assets/Day-38-Compound-Operator-Practice-images/Employee-Table.png)
 
 ---
 
