@@ -126,4 +126,4 @@ Supports basic T-SQL compound operators due to shared historical codebase herita
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 37)](./Day-37-SQL-Logical-operators.md) | [Next Day (Day 39) →](./Day-38-SQL-Compound-operators.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 37)](./Day-37-SQL-Logical-operators.md) | [Next Day (Day 39) →](./Day-39-SQL-Bitwise-Operators.md)
