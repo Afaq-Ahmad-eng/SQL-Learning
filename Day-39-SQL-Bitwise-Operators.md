@@ -219,7 +219,7 @@ Bits on the far right are discarded according to the specified number of shifted
 ---
 
 > **Note:**
-> Compound bitwise assignment operators (such as `&=`, `|=`, and `^=`) are skipped here for brevity and will be covered in a later.
+> Compound bitwise assignment operators (such as `&=`, `|=`, and `^=`) are skipped here for brevity and will be covered later.
 
 ---
 
