@@ -209,13 +209,10 @@ Bits on the far right are discarded according to the specified number of shifted
 
 > **NOTE:**
 
-```
-**`AS`:** Assigns an alias to name the output column (e.g., naming the result `Value`).
-**`BIN()`:** Converts a decimal integer into its binary string representation.
-**`LPAD()`:** Pads the left side of a string with zeros to ensure a consistent 8-bit length.
-**`INSERT()`:** Inserts a space at position 5 to separate the 8 bits into two 4-bit groups (`0000 0110`) for better visual readability.
-
-```
+> AS Keyword: Assigns an alias to name the output column (e.g., naming the result `Value`).
+> BIN(): Converts a decimal integer into its binary string representation.
+> LPAD(): Pads the left side of a string with zeros to ensure a consistent 8-bit length.
+> INSERT(): Inserts a space at position 5 to separate the 8 bits into two 4-bit groups (0000 0110) for better visual readability.
 
 ---
 
