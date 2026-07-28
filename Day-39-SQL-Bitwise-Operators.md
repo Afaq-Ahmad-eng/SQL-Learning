@@ -223,4 +223,4 @@ Bits on the far right are discarded according to the specified number of shifted
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 38)](./Day-38-SQL-Compound-operators.md) | [Next Day (Day 40) →](./Day-39-SQL-Bitwise-Operators.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 38)](./Day-38-SQL-Compound-operators.md) | [Next Day (Day 40) →](./SQL-Special-Operators/Day-40-Special_Operator_BETWEEN.md)
