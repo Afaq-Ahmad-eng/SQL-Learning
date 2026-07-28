@@ -74,4 +74,4 @@ The NOT operator reverses each condition's result — true becomes false and fal
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 36)](./Day-36-SQL-Comparison-operators.md) | [Next Day (Day 38) →](./Day-37-SQL-Logical-operators.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 36)](./Day-36-SQL-Comparison-operators.md) | [Next Day (Day 38) →](./Day-38-SQL-Compound-operators.md)
