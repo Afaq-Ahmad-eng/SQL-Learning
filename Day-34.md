@@ -1,0 +1,1 @@
+## I started documenting daily topics and uploading them to GitHub from Day 35 onwards. Days 1 through 34 haven't been uploaded yet, but I'll update the repository with those earlier topics as I add them.
