@@ -166,4 +166,4 @@ is usually much faster, since the database engine can stop evaluating as soon as
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 40)](./Day-40-Special_Operator_BETWEEN.md) | [Next Day (Day 41) →](./Day-41-Special_Operator_IN.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 40)](./Day-40-Special_Operator_BETWEEN.md) | [Next Day (Day 42) →](./Day-42-Special-Operatpor_EXISTS.md)
