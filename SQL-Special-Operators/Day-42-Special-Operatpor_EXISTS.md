@@ -146,4 +146,4 @@ END;
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 41)](./Day-41-Special_Operator_IN.md) | [Next Day (Day 43) →](./Day-42-Special-Operator_EXISTS.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 41)](./Day-41-Special_Operator_IN.md) | [Next Day (Day 43) →](./Day-43-Special_Operator_LIKE.md)
