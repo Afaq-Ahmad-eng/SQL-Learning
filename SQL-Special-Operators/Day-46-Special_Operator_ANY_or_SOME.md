@@ -138,4 +138,4 @@ WHERE salary > ANY (
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 45)](./Day-45-Special_Operator_ALL.md) | [Next Day (Day 47) →](./Day-46-Special_Operator_ANY_or_SOME.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 45)](./Day-45-Special_Operator_ALL.md) | [Next Day (Day 47) →](./Day-47-Special_Operator_REGEXP_or_RLIKE.md)
