@@ -156,4 +156,4 @@ Always test on your specific database engine rather than assuming behavior.
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 42)](./Day-42-Special-Operatpor_EXISTS.md) | [Next Day (Day 44) →](./Day-43-Special_Operator_LIKE.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 42)](./Day-42-Special-Operatpor_EXISTS.md) | [Next Day (Day 44) →](./Day-44-Special_Operator_IS_NULL_and_IS_NOT_NULL.md)
