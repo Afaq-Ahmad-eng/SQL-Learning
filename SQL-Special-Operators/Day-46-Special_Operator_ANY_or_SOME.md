@@ -52,7 +52,7 @@ WHERE salary < ANY (SELECT salary FROM employee WHERE department_id = 207);
 
 ![Employees with salary less than any employee in department 207](../src/assets/Day-46-Special_Operator_ANY_or_SOME-Practice-iamges/Employees-with-salary-less-than-any-employee-in-department-207.png)
 
-This is logically equivalent to `salary < (SELECT MAX(salary) FROM ...)` — it finds employees whose salary is lower than at least the highest-paid employee in department 207.
+This is logically equivalent to `salary < (SELECT MAX(salary) FROM ...)`, it finds employees whose salary is lower than at least the highest-paid employee in department 207.
 
 ---
 
@@ -97,7 +97,7 @@ Most developers prefer `IN` for this exact case since it reads more naturally, a
 
 ## 5. Important Gotcha: Empty Subquery Results:
 
-If the subquery inside `ANY`/`SOME` returns **zero rows**, the entire condition evaluates to `FALSE` for every row in the outer query — the opposite of how `ALL` behaves with an empty subquery (which evaluates to `TRUE`).
+If the subquery inside `ANY`/`SOME` returns **zero rows**, the entire condition evaluates to `FALSE` for every row in the outer query the opposite of how `ALL` behaves with an empty subquery (which evaluates to `TRUE`).
 
 ```sql
 -- If department_id = 999 doesn't exist, this returns NO employees
@@ -130,10 +130,10 @@ WHERE salary > ANY (
 
 ## 7. Things to Keep in Mind
 
-- `ANY` and `SOME` are 100% interchangeable — pick whichever reads better in context.
+- `ANY` and `SOME` are 100% interchangeable pick whichever reads better in context.
 - `ANY`/`SOME` must always be paired with a comparison operator; it cannot be used alone.
 - `> ANY` is equivalent to comparing against the subquery's minimum value; `< ANY` is equivalent to comparing against its maximum.
-- An empty subquery result makes `ANY`/`SOME` evaluate to `FALSE` for every outer row — the opposite of `ALL`'s behavior in the same situation.
+- An empty subquery result makes `ANY`/`SOME` evaluate to `FALSE` for every outer row the opposite of `ALL`'s behavior in the same situation.
 - For simple "does this value appear in a list" checks, `IN` is generally clearer than `= ANY`, even though they're equivalent.
 
 ---

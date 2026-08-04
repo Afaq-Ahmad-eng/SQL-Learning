@@ -1,8 +1,8 @@
 # IS NULL and IS NOT NULL Operators:
 
-`NULL` represents a **missing, unassigned, or unknown value** — it is not the same as zero, an empty string, or any other value. The `IS NULL` and `IS NOT NULL` operators are used specifically to check for the presence or absence of `NULL` in a column.
+`NULL` represents a **missing, unassigned, or unknown value**, it is not the same as zero, an empty string, or any other value. The `IS NULL` and `IS NOT NULL` operators are used specifically to check for the presence or absence of `NULL` in a column.
 
-Standard equality (`= NULL`) does **not** work in SQL, because `NULL` represents an unknown state rather than a specific value — and comparing anything to "unknown" always yields "unknown," never `TRUE`. So you must use `IS NULL` instead of `= NULL`, and `IS NOT NULL` instead of `!= NULL` or `<> NULL`.
+Standard equality (`= NULL`) does **not** work in SQL, because `NULL` represents an unknown state rather than a specific value and comparing anything to "unknown" always yields "unknown," never `TRUE`. So you must use `IS NULL` instead of `= NULL`, and `IS NOT NULL` instead of `!= NULL` or `<> NULL`.
 
 > For the practice examples below, we will use the following table:
 
@@ -100,7 +100,7 @@ How `NULL` values are positioned when sorting depends on the database engine:
 
 - **MySQL:** `NULL` values are treated as the smallest possible value, so they appear first in ascending order (`ORDER BY column_name ASC`) and last in descending order.
 - **PostgreSQL:** `NULL` values sort **last** in ascending order and **first** in descending order by default. Use `NULLS FIRST` or `NULLS LAST` to control this explicitly.
-- **SQL Server:** Similar to MySQL — `NULL`s are treated as the lowest value by default.
+- **SQL Server:** Similar to MySQL, `NULL`s are treated as the lowest value by default.
 
 **SQL Query (PostgreSQL):** Force NULLs to appear at the end regardless of sort order.
 
@@ -112,9 +112,9 @@ SELECT * FROM employee ORDER BY department_id ASC NULLS LAST;
 
 ## 7. Things to Keep in Mind:
 
-- `NULL` is not equal to anything — not even another `NULL`. `NULL = NULL` evaluates to unknown, not `TRUE`.
+- `NULL` is not equal to anything not even another `NULL`. `NULL = NULL` evaluates to unknown, not `TRUE`.
 - Never use `= NULL` or `!= NULL` in a `WHERE` clause; they will silently return no matching rows instead of an error.
-- Most aggregate functions ignore `NULL`s automatically, which can skew results if you're not aware of it — always check whether `NULL`s should be included or excluded from a calculation.
+- Most aggregate functions ignore `NULL`s automatically, which can skew results if you're not aware of it always check whether `NULL`s should be included or excluded from a calculation.
 - Use `COALESCE()` when you want to display or calculate with a fallback value instead of `NULL`.
 
 ---

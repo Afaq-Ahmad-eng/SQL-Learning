@@ -2,7 +2,7 @@
 
 The `ALL` operator compares a single scalar value to **every** value returned by a subquery. The comparison must evaluate to `TRUE` against **every single row** returned by the subquery for the outer row to be selected.
 
-`ALL` is always used together with a comparison operator (`=`, `!=`, `>`, `<`, `>=`, `<=`) — it is never used on its own.
+`ALL` is always used together with a comparison operator (`=`, `!=`, `>`, `<`, `>=`, `<=`), it is never used on its own.
 
 > For the practice examples below, we will use the following table:
 
@@ -133,7 +133,7 @@ WHERE salary > ALL (
 
 - `ALL` must always be paired with a comparison operator; it cannot be used alone.
 - `> ALL` is equivalent to comparing against the subquery's maximum value; `< ALL` is equivalent to comparing against its minimum.
-- An empty subquery result makes `ALL` evaluate to `TRUE` for every outer row — a common source of unexpected results.
+- An empty subquery result makes `ALL` evaluate to `TRUE` for every outer row a common source of unexpected results.
 - `NULL` values inside the subquery can silently exclude rows from the result; filter them out with `IS NOT NULL` if needed.
 - For "match any single value in a list" logic, use `IN` or `= ANY` instead of `= ALL`.
 
