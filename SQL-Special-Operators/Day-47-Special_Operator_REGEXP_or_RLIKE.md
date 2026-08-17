@@ -168,4 +168,4 @@ Always verify behavior on your specific database engine.
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 46)](./Day-46-Special_Operator_ANY_or_SOME.md) | [Next Day (Day 48) →](./Day-47-Special_Operator_REGEXP_or_RLIKE.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 46)](./Day-46-Special_Operator_ANY_or_SOME.md) | [Next Day (Day 48) →](../Day-48-UNION-Operator.md)
