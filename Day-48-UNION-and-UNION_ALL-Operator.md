@@ -109,4 +109,4 @@ Unlike `UNION`, this query does not deduplicate the result, so if an employee's 
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 47)](./SQL-Special-Operators/Day-47-Special_Operator_REGEXP_or_RLIKE.md) | [Next Day (Day 49) →](./Day-48-UNION-and-UNION_ALL-Operator.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 47)](./SQL-Special-Operators/Day-47-Special_Operator_REGEXP_or_RLIKE.md) | [Next Day (Day 49) →](./SQL-Special-Operators/Day-49-special_operator-except.md)
