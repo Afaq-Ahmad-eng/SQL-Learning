@@ -105,4 +105,4 @@ FROM Teaching_Assistant;
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 48)](../Day-48-UNION-and-UNION_ALL-Operator.md) | [Next Day (Day 50) →](./Day-50-Special_Operator_INTERSECT.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 48)](../Day-48-UNION-and-UNION_ALL-Operator.md) | [Next Day (Day 50) →](../Day-50-INTERSECT-Operator.md)
