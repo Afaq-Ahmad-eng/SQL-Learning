@@ -210,5 +210,6 @@ INNER JOIN teaching_assistant t ON s.Name = t.Name;
 - Not supported in older MySQL versions; use `INNER JOIN` with `DISTINCT` as a workaround.
 - For large datasets, consider indexing and evaluate whether `INNER JOIN` might be more efficient.
 
+---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 49)](./SQL-Special-Operators/Day-49-special_operator-except.md) | [Next Day (Day 51) →](./Day-50-INTERSECT-Operator.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 49)](./SQL-Special-Operators/Day-49-special_operator-except.md) | [Next Day (Day 51) →](./Day-51-EXISTS-Operator.md)
