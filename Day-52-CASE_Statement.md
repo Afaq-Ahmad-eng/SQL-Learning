@@ -282,4 +282,4 @@ GROUP BY Country;
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 51)](./Day-51-EXISTS-Operator.md) | [Next Day (Day 53) →](./Day-52-CASE_Statement.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 51)](./Day-51-EXISTS-Operator.md) | [Next Day (Day 53) →](./SQL-Functions/Day-53-Date-Functions.md)
