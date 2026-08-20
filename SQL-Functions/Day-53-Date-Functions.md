@@ -297,4 +297,4 @@ FROM sales;
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 52)](../Day-52-CASE_Statement.md) | [Next Day (Day 54) →](./SQL-Functions/Day-53-Date-Functions.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 52)](../Day-52-CASE_Statement.md) | [Next Day (Day 54) →](./Day-54-String_functions.md)
