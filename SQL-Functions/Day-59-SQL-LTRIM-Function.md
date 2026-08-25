@@ -21,12 +21,12 @@ LTRIM(String)
 **Query:**
 
 ```sql
-SELECT LTRIM('     GeeksforGeeks.') AS trimmedString;
+SELECT LTRIM('     Afaq Ahmad.') AS trimmedString;
 ```
 
 **Output:**
 
-![LTRIM](../src/assets/Day-59-SQL-LTRIM()-Function-Practice-images/LTRIM()-Output.png)
+![LTRIM](../src/assets/Day-59-SQL-LTRIM-Function-Practice-images/LTRIM()-Output.png)
 
 ---
 
@@ -46,7 +46,7 @@ SELECT TRIM(LEADING '-' FROM '----Afaq Ahmad') AS TrimmedString;
 
 **Output:**
 
-![TRIM and LEADING](../src/assets/Day-59-SQL-LTRIM()-Function-Practice-images/TRIM-&-LEADING()-Output.png)
+![TRIM and LEADING](../src/assets/Day-59-SQL-LTRIM-Function-Practice-images/TRIM-&-LEADING()-Output.png)
 
 - Removes the `-` characters from the left side of the string.
 - Returns the cleaned result as `TrimmedString`.
@@ -63,10 +63,11 @@ SELECT TRIM(LEADING 'Khan' FROM 'Khan Afaq Ahmad') AS TrimmedString;
 
 **Output:**
 
-![TRIM and LEADING Name](../src/assets/Day-59-SQL-LTRIM()-Function-Practice-images/TRIM-&-LEADING()-Name-Output.png)
+![TRIM and LEADING Name](../src/assets/Day-59-SQL-LTRIM-Function-Practice-images/TRIM-&-LEADING()-Name-Output.png)
 
-- Removes the leading occurrence of `'Geeks'` from the string.
-- The trailing `'Geeks'` is left untouched, since `TRIM(LEADING ...)` only strips from the start.
+- Removes the leading occurrence of `'Khan'` from the string.
+
+- The trailing `'Afaq Ahmad'` is left untouched, since `TRIM(LEADING ...)` only strips from the start.
 
 ### Example 3: Combine LTRIM() with Other String Functions:
 
@@ -80,7 +81,7 @@ SELECT UPPER(LTRIM('   hello world')) AS CleanedString;
 
 **Output:**
 
-![UPPER and LTRIM](../src/assets/Day-59-SQL-LTRIM()-Function-Practice-images/UPPER-LTRIM()-Output.png)
+![UPPER and LTRIM](../src/assets/Day-59-SQL-LTRIM-Function-Practice-images/UPPER-LTRIM()-Output.png)
 
 - `LTRIM()` removes the leading spaces first.
 - `UPPER()` then converts the trimmed result to uppercase.
