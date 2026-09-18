@@ -121,4 +121,4 @@ It's still good practice to include an explicit stopping condition in the recurs
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 79)](./Day-79-SQL-DELETE-JOIN.md) | [Next Day (Day 81) →](../SQL-Views/Day-81-SQL-CREATE-VIEW-Statement.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 79)](./Day-79-SQL-DELETE-JOIN.md) | [Next Day (Day 81) →](../SQL-Views/Day-81-Introduction-to-SQL-Views.md)
