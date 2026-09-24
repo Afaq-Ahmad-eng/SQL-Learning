@@ -114,4 +114,4 @@ This is more work than a single `RENAME TABLE` statement, so it's worth reaching
 
 ---
 
-[← Back to main README](./README.md) | [← Previous Day (Day 83)](./Day-84-Rename-View-in-SQL.md) | [Next Day (Day 85) →](./Day-85-DROP-View-in-SQL.md)
+[← Back to main README](./README.md) | [← Previous Day (Day 83)](./Day-83-UPDATE-VIEW-in-SQL.md) | [Next Day (Day 85) →](./Day-85-DROP-View-in-SQL.md)
